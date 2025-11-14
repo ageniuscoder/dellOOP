@@ -18,6 +18,7 @@ class LibraryItem{
     int getId(){
         return id;
     }
+    virtual ~LibraryItem(){}
 };
 class Book:public LibraryItem{
     int fee;
